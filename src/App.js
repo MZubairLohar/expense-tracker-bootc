@@ -12,8 +12,11 @@ import { Card } from '@material-ui/core'
 
 function App() {
   return (
-    <div className="title">
-      <Card className='main'>
+    <div > 
+      <div id='title'>
+      <h3> EXPENSE TRACKER BY ZUBAIR</h3>
+      </div>
+      <Card  id='main'>
 
       <Header />
       <Balance/>
@@ -25,7 +28,7 @@ function App() {
       </Card>
       
 
-      </div>
+     </div>
   );
 }
 

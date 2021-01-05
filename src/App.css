@@ -1,18 +1,23 @@
-.title{
-  align-items: center;
+#title{
+ text-align: center;
+ margin-bottom: 0;
+ margin-top: 4rem;
+}
+
+#main{
+  border-radius: 2rem;
   text-align: center;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-
-}
-
-.main{
   margin: 9rem;
+  margin-top: 1rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
   padding: 0.5rem;
-
+  background-color: black;
+  color: white;
 }
 
-.header-main{
+#header-main{
+  border-radius: 2rem;
   margin: 0;
   padding: 0.5rem;
 }

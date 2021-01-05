@@ -7,7 +7,7 @@ import { Card } from '@material-ui/core'
 
 const Header = () => {
     return (
-        <Card className='header-main'>
+        <Card id='header-main'>
                 <div>
             <h3>YOUR BALANCE</h3>
             
